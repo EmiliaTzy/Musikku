@@ -64,7 +64,7 @@ Terimakasih
 
 ### Mari terhubung!
 <p>
-    <a href="https://t.me/tth_kiya98" target="blank"><img src="https://img.shields.io/badge/Az-30302f?style=flat&logo=telegram"width="254" height="52"/></a>
-    <a href="https://t.me/CatatanAzDay" target="blank"><img src="https://img.shields.io/badge/KUTIPAN PENA AZ-black?style=flat&logo=telegram"width="319" height="52"/></a>
+    <a href="https://t.me/tth_kiya98" target="blank"><img src="https://img.shields.io/badge/Az-30302f?style=flat&logo=telegram"width="319" height="52"/></a>
+    <a href="https://t.me/CatatanAzDay" target="blank"><img src="https://img.shields.io/badge/KUTIPAN PENA AZ-green?style=flat&logo=telegram"width="319" height="52"/></a>
     <a href="https://t.me/CatatanAz" target="blank"><img src="https://img.shields.io/badge/CATATAN AZ-gold?style=flat&logo=telegram"width="332" height="49"/></a>
 </p>
