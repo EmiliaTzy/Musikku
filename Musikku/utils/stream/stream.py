@@ -120,7 +120,7 @@ async def stream(
                     photo=img,
                     caption=_["stream_1"].format(
                         user_name,
-                        f"https://t.me/{app.username}?start=info_{vidid}",
+                        f"https://t.me/{app.username}?mstart=info_{vidid}",
                     ),
                     reply_markup=InlineKeyboardMarkup(button),
                 )
@@ -194,14 +194,14 @@ async def stream(
                 "video" if video else "audio",
                 forceplay=forceplay,
             )
-            img = await gen_thumb(vidid)
+            img = await gen_thumb(vidid)n
             button = stream_markup(_, vidid, chat_id)
             run = await app.send_photo(
                 original_chat_id,
                 photo=img,
                 caption=_["stream_1"].format(
                     user_name,
-                    f"https://t.me/{app.username}?start=info_{vidid}",
+                    f"https://t.me/{app.username}?mstart=info_{vidid}",
                 ),
                 reply_markup=InlineKeyboardMarkup(button),
             )
@@ -370,7 +370,7 @@ async def stream(
                 photo=img,
                 caption=_["stream_1"].format(
                     user_name,
-                    f"https://t.me/{app.username}?start=info_{vidid}",
+                    f"https://t.me/{app.username}?mstart=info_{vidid}",
                 ),
                 reply_markup=InlineKeyboardMarkup(button),
             )
