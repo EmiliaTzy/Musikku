@@ -62,14 +62,14 @@ HELP_3 = """✅<u>**Perintah Bot:**</u>
 
 /lyrics [Music Name] - Mencari Lirik untuk Musik tertentu di web.
 
-/song [Nama Trek] atau [Tautan YT] - Unduh trek apa pun dari youtube dalam format mp3 atau mp4.
+/msong [Nama Trek] atau [Tautan YT] - Unduh trek apa pun dari youtube dalam format mp3 atau mp4.
 
 **c** adalah singkatan dari pemutaran saluran.
 /queue atau /cqueue- Periksa Daftar Antrian Musik."""
 
 HELP_4 = """✅<u>**Perintah Ekstra:**</u>
 /start - Mulai Bot Musik.
-/help - Dapatkan Menu Helper Perintah dengan penjelasan rinci tentang perintah.
+/mhelp - Dapatkan Menu Helper Perintah dengan penjelasan rinci tentang perintah.
 /ping- Ping Bot dan periksa Ram, Cpu dll statistik Bot.
 
 <u>**Setelan Grup:*</u>
@@ -112,7 +112,7 @@ HELP_5 = """🔰**<u>TAMBAH & HAPUS PENGGUNA SUDO :</u>**
 /set_var [Var Name] [Value] - Atur Var atau Perbarui Var di heroku atau .env. Pisahkan Var dan Nilainya dengan spasi.
 
 **<u>PERINTAH BOT:</u>**
-/restart - Mulai ulang Bot.
+/restart atau /muatulang - Mulai ulang Bot.
 /update - Perbarui Bot.
 /speedtest - Periksa kecepatan server
 /maintenance - [enable / disable]
@@ -122,7 +122,7 @@ HELP_5 = """🔰**<u>TAMBAH & HAPUS PENGGUNA SUDO :</u>**
 **<u>PERINTAH STATUS:</u>**
 /activevoice - Periksa obrolan suara aktif di bot.
 /activevideo - Periksa panggilan video aktif di bot.
-/stats - Periksa Statistik Bot
+/mstats - Periksa Statistik Bot
 
 ️**<u>FUNGSI BLACKLIST CHAT:</u>**
 /blacklistchat [CHAT_ID] - Daftar hitam obrolan apa pun dari menggunakan Bot Musik
