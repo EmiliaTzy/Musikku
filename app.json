@@ -1,5 +1,5 @@
 {
-    "name": "Musikku Music Bot",
+    "name": "Eiko Music Bot",
     "description": "Telegram Group Calls streaming bot dengan beberapa fitur berguna, ditulis dengan Python dengan Pyrogram dan Py-Tgcalls. Platform pendukung seperti Youtube, Spotify, Resso, AppleMusic, Soundcloud dan M3u8 Links.",
     "logo": "https://telegra.ph/file/7286ea5b5a2f8dc66e3ed.jpg",
     "keywords": [
@@ -79,7 +79,7 @@
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/kenkansaja/Musikku",
+        "value": "https://github.com/EmiliaTzy/Musikku",
         "required": true
       },
       "UPSTREAM_BRANCH": {
@@ -89,12 +89,12 @@
       },
       "SUPPORT_CHANNEL": {
         "description": "Tautan Channel Dukungan jika ada, Biarkan kosong jika tidak ada dukungan. Tautan Anda harus dimulai dengan https://t.me/",
-        "value": "https://t.me/musikkuchannel",
+        "value": "https://t.me/CatatanAz",
         "required": false
       },
       "SUPPORT_GROUP": {
         "description": "Tautan Group Dukungan jika ada, Biarkan kosong jika tidak ada dukungan. Tautan Anda harus dimulai dengan https://t.me/",
-        "value": "https://t.me/musikkugroup",
+        "value": "https://t.me/CatatanAzDay",
         "required": false
       }
     },
