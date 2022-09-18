@@ -22,7 +22,6 @@ from Musikku.utils.inline.play import (panel_markup_1,
                                           stream_markup,
                                           telegram_markup)
 from Musikku.utils.stream.autoclear import auto_clean
-from Musikku.utils.thumbnails import gen_thumb
 
 wrong = {}
 
