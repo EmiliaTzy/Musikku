@@ -144,5 +144,5 @@ async def thumb_init(videoid):
 
             return file
     except Exception as e:
-
-        return "HnYMusic/Utilities/Audio.jpeg"
+        return "Musikku/Utilities/Audio.jpeg"
+      
