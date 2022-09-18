@@ -43,7 +43,7 @@ from Musikku.utils.exceptions import AssistantErr
 from Musikku.utils.inline.play import (stream_markup,
                                           telegram_markup)
 from Musikku.utils.stream.autoclear import auto_clean
-from Musikku.utils.thumbnails import thumb_init
+from Musikku.utils.thumbnails import gen_thumb
 
 autoend = {}
 counter = {}
