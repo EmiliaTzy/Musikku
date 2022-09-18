@@ -16,7 +16,7 @@ ___
 <a href="https://cloud.okteto.com/deploy?repository=https://github.com/kenkansaja/Musikku"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="200"/></a>
 
 ## DEPLOY RAILWAY
-https://railway.app/new/template?template=https://github.com/EmiliaTzy/Musikku"><img alt="Deploy on Railway
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/EmiliaTzy/Musikku) 
 
 ## STRINGS SESSION PYROGRAM
 
