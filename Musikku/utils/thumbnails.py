@@ -82,7 +82,7 @@ async def thumb_init(videoid):
             background = enhancer.enhance(0.6)
             image2 = background
                                                                                             
-            circle = Image.open("HnYMusic/Utilities/Circle.png")
+            circle = Image.open("Musikku/assets/Circle.png")
 
             # changing circle color
             im = circle
@@ -114,10 +114,10 @@ async def thumb_init(videoid):
             image2.paste(circle, (0,0), mask = circle)
 
             # fonts
-            font1 = ImageFont.truetype('Musikku/Utilities/font.ttf', 30)
-            font2 = ImageFont.truetype('Musikku/Utilities/font.ttf', 70)
-            font3 = ImageFont.truetype('Musikku/Utilities/font.ttf', 40)
-            font4 = ImageFont.truetype('HnYMusic/Utilities/font.ttf', 35)
+            font1 = ImageFont.truetype('Musikku/assets/font.ttf', 30)
+            font2 = ImageFont.truetype('Musikku/assets/font.ttf', 70)
+            font3 = ImageFont.truetype('Musikku/assets/font.ttf', 40)
+            font4 = ImageFont.truetype('HnYMusic/assets/font.ttf', 35)
 
             image4 = ImageDraw.Draw(image2)
             image4.text((10, 10), "Musikku", fill="white", font = font1, align ="left") 
@@ -144,5 +144,5 @@ async def thumb_init(videoid):
 
             return file
     except Exception as e:
-        return "Musikku/Utilities/Audio.jpeg"
+        return "Musikku/assets/Audio.jpeg"
       
