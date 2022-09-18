@@ -94,9 +94,9 @@ async def gen_thumb(videoid):
         )
         draw.text(
             (600, 150),
-            "NOW PLAYING",
+            "SEKARANG DIPUTAR",
             fill="white",
-            stroke_width=2,
+            stroke_width=1,
             stroke_fill="white",
             font=font2,
         )
@@ -124,13 +124,13 @@ async def gen_thumb(videoid):
 
         draw.text(
             (600, 450),
-            f"Views : {views[:23]}",
+            f"Penonton : {views[:23]}",
             (255, 255, 255),
             font=arial,
         )
         draw.text(
             (600, 500),
-            f"Duration : {duration[:23]} Mins",
+            f"Durasi : {duration[:23]} Menit",
             (255, 255, 255),
             font=arial,
         )
