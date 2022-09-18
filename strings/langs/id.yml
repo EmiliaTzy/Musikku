@@ -155,7 +155,7 @@ play_7 : "Maaf! Bot hanya mengizinkan panggilan video dalam jumlah terbatas kare
 play_8 : "Bukan Ekstensi File Video yang Valid!\n\n**Format yang Didukung:** {0}"
 play_9 : "Ukuran File Video Harus Kurang dari 1 GiB"
 play_10 : "**Fitur Daftar Putar YouTube**\n\nPilih Mode di mana Anda ingin memutar seluruh Daftar Putar Youtube"
-play_11 : "📀 Judul: **{0}\n\n⏰ Durasi:** {1} Menit"
+play_11 : "❄ Judul: **{0}\n\n⏱️ Durasi:** {1} Menit"
 play_12 : "**Mode Putar Spotify**\n\nDiminta Oleh:- {0}"
 play_13 : "**Daftar Putar Apple**\n\nDiminta Oleh:- {0}"
 play_14 : "**Tidak dapat memverifikasi URL.**\nBot bertanya-tanya apakah url ini milik salah satu platform berikut: Youtube, AppleMusic, Spotify, Resso, dan Soundcloud.\n\nAnda dapat menggunakan /stream untuk M3u8 atau Remote Links ."
@@ -201,7 +201,7 @@ tracks_2 : "**Error**\n\nTidak ada **{0} Top 10 Playlist** di server bot. Silaka
 # PERALATAN
 
 #Lirik
-lyrics_1 : "**Penggunaan:**\n\n/lyrics [ Nama Musik]"
+lyrics_1 : "**Penggunaan:**\n\n/lyrics [Nama Musik]"
 lyrics_2 : "Mencari Lirik"
 lyrics_3 : "❌ Gagal mengambil lirik😭.\n\n💡**Mencoba Mencari:** {0}"
 lyrics_4 : "Klik tombol di bawah ini dan cari lirik untuk menghindari pencarian lirik jenis spam yang panjang."
@@ -228,14 +228,14 @@ song_11 : "Pengunggahan Dimulai\n\nKecepatan pengunggahan mungkin lambat. Harap 
 queue_1 : "Mohon Tunggu..Mengambil Antrian.."
 queue_2 : "Tidak ada trek di dalam Antrian."
 queue_3 : "<u>**Trek Antrian:</u>** [Lihat Trek Antrian Lainnya Dari Sini]({0})"
-queue_4 : "⏳ Ditambahkan ke Antrian di **#{0}\n\n📀 Judul:** {1}\n**⏰ Durasi:** {2}\n🧸 **Ditambahkan Oleh:** {3}"
+queue_4 : "⏳ Ditambahkan ke Antrian di **#{0}\n\n❄ Judul:** {1}\n**⏱️ Durasi:** {2}\n🍃 **Ditambahkan Oleh:** {3}"
 queue_5 : "Hanya satu track di dalam antrian, Silahkan tambahkan lagi untuk check list"
 
 # Semua Saluran Streaming
-stream_1 : "🎥 **Memulai Streaming** 💡\n\n🧸 **Diminta Oleh:** {0}\n📮 **Informasi: **[Di Sini]({1})"
-stream_2 : "🎥 **Memulai Streaming melalui URL** 💡\n\n**🧸 Diminta Oleh:** {0}"
-stream_3 : "🎥 **Memulai Streaming** 💡\n\n**📀 Judul:** {0}\n⏰ **Durasi**: {1}\n🧸 **Diminta Oleh:** {2} "
-stream_4 : "🎥 **Memulai Streaming** 💡\n\n**📀 Judul:** [{0}]({1})\n⏰ **Durasi**: {2}\n🧸 **Diminta Oleh:** {3}"
+stream_1 : "🎥 **Memulai Streaming** 💡\n\n🍃 **Diminta Oleh:** {0}\n📮 **Informasi: **[Di Sini]({1})"
+stream_2 : "🎥 **Memulai Streaming melalui URL** 💡\n\n**🍃 Diminta Oleh:** {0}"
+stream_3 : "🎥 **Memulai Streaming** 💡\n\n**❄ Judul:** {0}\n⏱️ **Durasi**: {1}\n🍃 **Diminta Oleh:** {2} "
+stream_4 : "🎥 **Memulai Streaming** 💡\n\n**❄ Judul:** [{0}]({1})\n⏱️ **Durasi**: {2}\n🍃 **Diminta Oleh:** {3}"
 
 # Tombol Sebaris
 
