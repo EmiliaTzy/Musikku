@@ -16,8 +16,7 @@ ___
 <a href="https://cloud.okteto.com/deploy?repository=https://github.com/kenkansaja/Musikku"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="200"/></a>
 
 ## DEPLOY RAILWAY
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/EmiliaTzy/Musikku&envs=API_ID,API_HASH,BOT_TOKEN,STRING_SESSION, AUTO_LEAVING_ASSISTANT,MONGO_DB_URI,MUSIC_BOT_NAME,OWNER_ID,DURATION_LIMIT,LOG_GROUP_ID,UPSTREAM_REPO,UPSTREAM_BRANCH,SUPPORT_CHANNEL,SUPPORT_GROUP,SPOTIFY_CLIENT_ID,SPOTIFY_CLIENT_SECRET, )
-
+https://railway.app/new/template?template=https://github.com/EmiliaTzy/Musikku"><img alt="Deploy on Railway
 
 ## STRINGS SESSION PYROGRAM
 
