@@ -127,7 +127,7 @@ async def skip(cli, message: Message, _, chat_id):
         img = await gen_thumb(videoid)
         run = await message.reply_photo(
             photo=img,
-            caption=_["stream_1"].format(
+            caption=_["stream_3"].format(
                 user,
                 f"https://t.me/{app.username}?start=info_{videoid}",
             ),
@@ -156,7 +156,7 @@ async def skip(cli, message: Message, _, chat_id):
         img = await gen_thumb(videoid)
         run = await message.reply_photo(
             photo=img,
-            caption=_["stream_1"].format(
+            caption=_["stream_3"].format(
                 user,
                 f"https://t.me/{app.username}?start=info_{videoid}",
             ),
@@ -173,7 +173,7 @@ async def skip(cli, message: Message, _, chat_id):
         button = telegram_markup(_, chat_id)
         run = await message.reply_photo(
             photo=config.STREAM_IMG_URL,
-            caption=_["stream_2"].format(user),
+            caption=_["stream_3"].format(user),
             reply_markup=InlineKeyboardMarkup(button),
         )
         db[chat_id][0]["mystic"] = run
@@ -214,7 +214,7 @@ async def skip(cli, message: Message, _, chat_id):
             img = await gen_thumb(videoid)
             run = await message.reply_photo(
                 photo=img,
-                caption=_["stream_1"].format(
+                caption=_["stream_3"].format(
                     user,
                     f"https://t.me/{app.username}?start=info_{videoid}",
                 ),
