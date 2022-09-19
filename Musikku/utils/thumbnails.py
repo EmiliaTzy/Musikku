@@ -94,7 +94,7 @@ async def gen_thumb(videoid):
         )
         draw.text(
             (600, 150),
-            "SEKARANG DIPUTAR",
+            "SEDANG DIPUTAR",
             fill="white",
             stroke_width=1,
             stroke_fill="white",
