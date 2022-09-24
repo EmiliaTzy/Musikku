@@ -1,35 +1,33 @@
-# Yukki Music Bot Configs
+## Konfigurasi Bot Musik Yukki
 
-Config vars are basically the variables which configure or modify bot to function, which are the basic necessities of plugins or code to work. You have to set the proper mandatory vars to make it functional and to start the basic feature of bot.
+Config vars pada dasarnya adalah variabel yang mengonfigurasi atau memodifikasi bot agar berfungsi, yang merupakan kebutuhan dasar plugin atau kode agar berfungsi. Anda harus mengatur vars wajib yang tepat untuk membuatnya berfungsi dan untuk memulai fitur dasar bot.
 
-### Get to know about all these vars in depth from our Docs. [Read Now from Here](https://notreallyshikhar.gitbook.io/yukkimusicbot/config-vars/available-vars)
+### Kenali semua vars ini secara mendalam dari Dokumen kami. [Baca Sekarang dari Sini](https://notreallyshikhar.gitbook.io/yukkimusicbot/config-vars/available-vars)
 
-## Mandatory Vars
+## Vars Wajib
 
-- These are the minimum required vars need to setup to make Yukki Music Bot functional.
+- Ini adalah vars minimum yang diperlukan untuk membuat Yukki Music Bot berfungsi.
+1. `API_ID` : Dapatkan dari my.telegram.org
+2. `API_HASH` : Dapatkan dari my.telegram.org
+3. `BOT_TOKEN` : Dapatkan dari [@Botfather](http://t.me/BotFather) di Telegram
+4. `MONGO_DB_URI` : Dapatkan mongo db [dari sini.](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/mongodb)
+5. `LOG_GROUP_ID` : Anda memerlukan ID Grup Pribadi untuk ini. Supergroup Dibutuhkan dengan id mulai dari -100
+6. `MUSIC_BOT_NAME` : Nama untuk bot Musik Anda.
+7. `OWNER_ID` : ID Pemilik Anda untuk mengelola bot Anda.
+8. `STRING_SESSION` : Diperlukan Sesi Pyrogram, Hasilkan string dari [@YukkiStringBot](http://t.me/YukkiStringBot) di Telegram.
 
-1. `API_ID` : Get it from my.telegram.org 
-2. `API_HASH`  : Get it from my.telegram.org 
-3. `BOT_TOKEN` : Get it from [@Botfather](http://t.me/BotFather) in Telegram
-4. `MONGO_DB_URI` : Get mongo db [from here.](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/mongodb)
-5. `LOG_GROUP_ID` : You'll need a Private Group ID for this. Supergroup Needed with id starting from -100 
-6. `MUSIC_BOT_NAME` : A name for your Music bot.
-7. `OWNER_ID` : Your Owner ID for managing your bot.
-8. `STRING_SESSION` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
+## Vars Tidak Wajib
 
+- Ini adalah vars tambahan untuk fitur tambahan di dalam Bot Musik. Anda dapat meninggalkan vars yang tidak wajib untuk saat ini dan dapat menambahkannya nanti.
+1. `DURATION_LIMIT` : Durasi audio (musik) maksimum khusus untuk obrolan suara. Default untuk 60 menit.
+2. `SONG_DOWNLOAD_DURATION_LIMIT` : Batas Durasi untuk mengunduh Lagu dalam format MP3 atau MP4 dari bot. Default ke 180 menit.
+3. `VIDEO_STREAM_LIMIT` : Jumlah maksimum panggilan video yang diizinkan di bot. Nanti bisa diatur lewat /set_video_limit di telegram. Default untuk 3 obrolan.
+4. `SERVER_PLAYLIST_LIMIT` : Batas Maksimum Diizinkan bagi pengguna untuk menyimpan daftar putar di server bot. Standar ke 30
+5. `PLAYLIST_FETCH_LIMIT` : Batas maksimum pengambilan track playlist dari link youtube, spotify, apple. Default ke 25
+6. `CLEANMODE_MINS` : Waktu Cleanmode setelah bot akan menghapus pesan lama dari obrolan. Default ke 5 Menit.
+7. `SUPPORT_CHANNEL` : Jika Anda memiliki saluran untuk bot musik Anda, isi dengan tautan saluran Anda
+8. `SUPPORT_GROUP` : Jika Anda memiliki dukungan grup untuk bot musik Anda, isi dengan tautan grup Anda.
 
-## Non-Mandatory Vars
-
-- These are the extra vars for extra features inside Music Bot. You can leave non mandatory vars for now and can add them later.
-
-1. `DURATION_LIMIT` : Custom max audio(music) duration for voice chat. Default to 60 mins.
-2. `SONG_DOWNLOAD_DURATION_LIMIT`  : Duration Limit for downloading Songs in MP3 or MP4 format from bot. Default to 180 mins.
-3. `VIDEO_STREAM_LIMIT` : Maximum number of video calls allowed on bot. You can later set it via /set_video_limit on telegram. Default to 3 chats.
-4. `SERVER_PLAYLIST_LIMIT` : Maximum Limit Allowed for users to save playlists on bot's server. Default to 30
-5. `PLAYLIST_FETCH_LIMIT` :  Maximum limit for fetching playlist's track from youtube, spotify, apple links. Default to 25
-6. `CLEANMODE_MINS` : Cleanmode time after which bot will delete its old messages from chats. Default to 5 Mins.
-7. `SUPPORT_CHANNEL` : If you've any channel for your music bot , fill it with your channel link
-8. `SUPPORT_GROUP` : If you've any group support for your music bot , fill it with your group link
 
 ## Play FileSize Limit Vars
 
