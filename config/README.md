@@ -52,39 +52,33 @@ Config vars pada dasarnya adalah variabel yang mengonfigurasi atau memodifikasi 
 9. `AUTO_SUGGESTION_TIME` : Waktu setelah bot Anda akan menyarankan 1/10 obrolan acak dari obrolan yang Anda layani tentang perintah bot. Default ke 5400 detik, yaitu 90 Menit
 
 
-## Spotify Vars
+##Spotify Vars
 
-- You can play tracks or playlists from spotify from Yukki Music bot
-- You'll need these two vars to make spotify play working. This is not essential , you can leave them blank if you want.
+- Anda dapat memutar trek atau daftar putar dari spotify dari bot Yukki Music
+- Anda memerlukan dua var ini untuk membuat permainan spotify berfungsi. Ini tidak penting, Anda dapat membiarkannya kosong jika Anda mau.
 
-### How to get these? [Read from here](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/spotify)
+### Bagaimana cara mendapatkannya? [Baca dari sini](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/spotify)
 
-
-1. `SPOTIFY_CLIENT_ID` : Get it from https://developer.spotify.com/dashboard 
-2. `SPOTIFY_CLIENT_SECRET` : Get it from https://developer.spotify.com/dashboard 
-
+1. `SPOTIFY_CLIENT_ID` : Dapatkan dari https://developer.spotify.com/dashboard
+2. `SPOTIFY_CLIENT_SECRET` : Dapatkan dari https://developer.spotify.com/dashboard
 
 ## Heroku Vars
 
-- To work some Heroku compatible modules, this var value required to Access your account to use `get_log`, `usage`, `update` etc etc commands.
-- You can fill this var using your API key or Authorization token.
+- Untuk menjalankan beberapa modul yang kompatibel dengan Heroku, nilai var ini diperlukan untuk Mengakses akun Anda untuk menggunakan perintah `get_log`, `usage`, `update` dll.
+- Anda dapat mengisi var ini menggunakan kunci API atau token Otorisasi Anda.
 
-### How to get these? [Read from here](https://notreallyshikhar.gitbook.io/yukkimusicbot/config-vars/heroku-vars)
+### Bagaimana cara mendapatkannya? [Baca dari sini](https://notreallyshikhar.gitbook.io/yukkimusicbot/config-vars/heroku-vars)
 
-1. `HEROKU_API_KEY` : Get it from http://dashboard.heroku.com/account 
-2. `HEROKU_APP_NAME` : You have to Enter the app name which you gave to identify your Music Bot in Heroku. 
+1. `HEROKU_API_KEY` : Dapatkan dari http://dashboard.heroku.com/account
+2. `HEROKU_APP_NAME` : Anda harus memasukkan nama aplikasi yang Anda berikan untuk mengidentifikasi Bot Musik Anda di Heroku.
 
+## Kustom Repo Vars
 
-## Custom Repo Vars
-
-- If you plan to use Yukki Music Bot with your own customized or modified code.
-
-1. `UPSTREAM_REPO` : Your Upstream Repo URL or Forked Repo.
-2. `UPSTREAM_BRANCH` : Default Branch of your Upstream Repo URL or Forked Repo. 
-3. `GIT_TOKEN` : Your GIT TOKEN if your upstream repo is private
-4. `GITHUB_REPO` : Your Github Repo url, that will be shown on /start command
-
-
+- Jika Anda berencana untuk menggunakan Yukki Music Bot dengan kode Anda sendiri yang disesuaikan atau dimodifikasi.
+1. `UPSTREAM_REPO` : URL Repo Upstream Anda atau Repo Bercabang.
+2. `UPSTREAM_BRANCH` : Cabang Default dari URL Repo Hulu atau Repo Bercabang Anda.
+3. `GIT_TOKEN` : GIT TOKEN Anda jika repo upstream Anda bersifat pribadi
+4. `GITHUB_REPO` : URL Repo Github Anda, yang akan ditampilkan pada perintah /start
 
 ## Images/Thumbnail Vars
 
