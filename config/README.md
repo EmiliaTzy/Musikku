@@ -29,8 +29,27 @@ Config vars pada dasarnya adalah variabel yang mengonfigurasi atau memodifikasi 
 8. `SUPPORT_GROUP` : Jika Anda memiliki dukungan grup untuk bot musik Anda, isi dengan tautan grup Anda.
 
 
-## Play FileSize Limit Vars
-## Play FileSize Limit Vars
+## Putar Batas Ukuran File Vars
+
+- Batas ukuran file maksimum untuk audio dan video yang dapat diputar pengguna dari bot Anda. [Hanya Ukuran Byte yang Diterima]
+> Anda dapat mengonversi mb menjadi byte dari https://www.gbmb.org/mb-to-bytes dan menggunakannya di sini
+
+1. `TG_AUDIO_FILESIZE_LIMIT` : Batas ukuran file maksimum untuk file audio yang dapat dialirkan melalui vc. Default ke 104857600 byte, yaitu 100MB
+2. `TG_VIDEO_FILESIZE_LIMIT` : Batas ukuran file maksimum untuk file video yang dapat diputar. Default ke 1073741824 byte, yaitu 1024MB atau 1GB
+
+
+## Bot Vars
+
+- Semua vars ini digunakan untuk mengatur bot. Anda dapat mengedit vars ini jika Anda mau, jika tidak, biarkan semuanya apa adanya.
+
+1. `PRIVATE_BOT_MODE` : Setel true jika Anda ingin bot Anda menjadi pribadi saja atau False untuk semua grup. Default ke Salah
+2. `YOUTUBE_EDIT_SLEEP` : Durasi waktu tidur Untuk Youtube Downloader. Default ke 3 detik
+3. `TELEGRAM_EDIT_SLEEP` : Durasi waktu tidur Untuk Telegram Downloader. Default ke 5 detik
+4. `AUTO_LEAVING_ASSISTANT` : Setel ke True jika Anda ingin meninggalkan asisten setelah jangka waktu tertentu.
+5. `ASSISTANT_LEAVE_TIME` : Waktu setelah akun asisten Anda akan meninggalkan obrolan yang dilayani secara otomatis. Default ke 5400 detik, yaitu 90 Menit
+6. `AUTO_DOWNLOADS_CLEAR` : Setel True jika Anda ingin menghapus unduhan setelah pemutaran musik berakhir.
+7. `AUTO_SUGGESTION_MODE` : Setel True jika Anda ingin bot menyarankan tentang perintah bot ke obrolan acak bot Anda.
+9. `AUTO_SUGGESTION_TIME` : Waktu setelah bot Anda akan menyarankan 1/10 obrolan acak dari obrolan yang Anda layani tentang perintah bot. Default ke 5400 detik, yaitu 90 Menit
 
 
 ## Spotify Vars
