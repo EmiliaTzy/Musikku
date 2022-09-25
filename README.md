@@ -67,5 +67,6 @@ Terimakasih
 
 ### Mari terhubung!
 <p>
-    <a href="https://t.me/tth_kiya98" target="blank"><img src="https://img.shields.io/badge/Az-30302f?style=flat&logo=telegram"width="319" height="52"/></a>
-    <a href="https://t.me/CatatanAzDay"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/CatatanAz"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
+    <a href="https://t.me/tth_kiya98"><img src="https://img.shields.io/badge/Owner-white.svg?style=for-the-badge&logo=Telegram"></a>
+    <a href="https://t.me/CatatanAzDay"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a>
+    <a href="https://t.me/CatatanAz"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
