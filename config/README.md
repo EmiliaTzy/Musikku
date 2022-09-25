@@ -80,30 +80,28 @@ Config vars pada dasarnya adalah variabel yang mengonfigurasi atau memodifikasi 
 3. `GIT_TOKEN` : GIT TOKEN Anda jika repo upstream Anda bersifat pribadi
 4. `GITHUB_REPO` : URL Repo Github Anda, yang akan ditampilkan pada perintah /start
 
-## Images/Thumbnail Vars
+## Gambar/Thumbnail Vars
 
-- You can change images which are used in Yukki Music Bot.
-- You can generate telegaph links from [@YukkiTelegraphBot](http://t.me/YukkiTelegraphBot) and use it here.
+- Anda dapat mengubah gambar yang digunakan di Yukki Music Bot.
+- Anda dapat membuat tautan telegaph dari [@YukkiTelegraphBot](http://t.me/YukkiTelegraphBot) dan menggunakannya di sini.
+1. `START_IMG_URL` : Gambar yang muncul pada perintah /start dalam pesan pribadi bot.
+2. `PING_IMG_URL` : Gambar yang muncul pada perintah /ping bot.
+3. `PLAYLIST_IMG_URL` : Gambar yang muncul pada perintah /play bot.
+4. `GLOBAL_IMG_URL` : Gambar yang muncul pada perintah /stats bot.
+5. `STATS_IMG_URL` : Gambar yang muncul pada perintah /stats bot.
+6. `TELEGRAM_AUDIO_URL` : Gambar ini muncul ketika seseorang memutar audio dari telegram.
+7. `TELEGRAM_VIDEO_URL` : Gambar ini muncul saat seseorang memutar video dari telegram.
+8. `STREAM_IMG_URL` : gambarnya muncul ketika seseorang memainkan m3u8 atau tautan indeks.
+9. `SOUNCLOUD_IMG_URL` : Gambar ini muncul saat seseorang memutar musik dari soundcloud.
+10. `YOUTUBE_IMG_URL` : Gambar ini muncul jika generator thumbnail gagal untuk membuat ibu jari.
+11. `SPOTIFY_ARTIST_IMG_URL` : Gambar ini muncul saat seseorang memutar artis Spotify melalui tautan dalam mode sebaris.
+12. `SPOTIFY_ALBUM_IMG_URL` : Gambar ini muncul ketika seseorang memutar album Spotify melalui tautan dalam mode sebaris.
+13. `SPOTIFY_PLAYLIST_IMG_URL` : Gambar ini muncul ketika seseorang memutar album Spotify melalui tautan dalam mode sebaris.
 
-1. `START_IMG_URL` : Image which comes on /start command in private messages of bot.
-2. `PING_IMG_URL` : Image which comes on /ping command of bot.
-3. `PLAYLIST_IMG_URL` : Image which comes on /play command of bot. 
-4. `GLOBAL_IMG_URL` : Image which comes on /stats command of bot. 
-5. `STATS_IMG_URL` : Image which comes on /stats command of bot. 
-6. `TELEGRAM_AUDIO_URL` : This image comes when someone plays audios from telegram. 
-7. `TELEGRAM_VIDEO_URL` : This image comes when someone plays videos from telegram. 
-8. `STREAM_IMG_URL` : his image comes when someone plays m3u8 or index links.
-9. `SOUNCLOUD_IMG_URL` : This image comes when someone plays music from soundcloud. 
-10. `YOUTUBE_IMG_URL` : This image comes if thumbnail generator fails to gen thumb anyhow.
-11. `SPOTIFY_ARTIST_IMG_URL` : This image comes when someone plays Spotify artist via link in inline mode. 
-12. `SPOTIFY_ALBUM_IMG_URL` : This image comes when someone plays Spotify album via link in inline mode. 
-13. `SPOTIFY_PLAYLIST_IMG_URL` : This image comes when someone plays Spotify album via link in inline mode. 
+## Mode Multi Asisten
 
-## Multi Assistant Mode
-
-- You can use upto 5 Assistant Clients ( allowing your bot to atleast work in 2000-2500 chats at a time )
-
-1. `STRING_SESSION2` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
-2. `STRING_SESSION3` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
-3. `STRING_SESSION4` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
-4. `STRING_SESSION5` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
+- Anda dapat menggunakan hingga 5 Asisten Klien (memungkinkan bot Anda setidaknya bekerja dalam 2000-2500 obrolan sekaligus)
+1. `STRING_SESSION2` : Diperlukan Sesi Pyrogram, Hasilkan string dari [@YukkiStringBot](http://t.me/YukkiStringBot) di Telegram.
+2. `STRING_SESSION3` : Diperlukan Sesi Pyrogram, Hasilkan string dari [@YukkiStringBot](http://t.me/YukkiStringBot) di Telegram.
+3. `STRING_SESSION4` : Diperlukan Sesi Pyrogram, Hasilkan string dari [@YukkiStringBot](http://t.me/YukkiStringBot) di Telegram.
+4. `STRING_SESSION5` : Diperlukan Sesi Pyrogram, Hasilkan string dari [@YukkiStringBot](http://t.me/YukkiStringBot) di Telegram.
