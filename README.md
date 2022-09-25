@@ -16,7 +16,10 @@ ___
 <a href="https://cloud.okteto.com/deploy?repository=https://github.com/kenkansaja/Musikku"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="200"/></a>
 
 ## DEPLOY RAILWAY
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/EmiliaTzy/Musikku) 
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/EmiliaTzy/Musikku)
+
+## Workflows Deployment
+<p align="center"><a href="https://github.com/new/import"><img src="https://img.shields.io/badge/Workflow%20Deploy-black?style=for-the-badge&logo=github" width="200""/></a>
 
 ## STRINGS SESSION PYROGRAM
 
