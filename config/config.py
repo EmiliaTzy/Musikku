@@ -132,7 +132,7 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "25"))
 
 # Cleanmode time after which bot will delete its old messages from chats
 CLEANMODE_DELETE_MINS = int(
-    getenv("CLEANMODE_MINS", "5")
+    getenv("CLEANMODE_MINS", "10")
 )  # Remember to give value in Seconds
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @Stringdurhakabot
