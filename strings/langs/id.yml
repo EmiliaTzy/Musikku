@@ -145,8 +145,8 @@ cplay_5 : "Hanya Channel yang didukung."
 cplay_6 : "Anda harus menjadi **Pemilik** Channel[{0}] untuk menghubungkannya dengan grup ini.\n**Pemilik Channel:** @{1}\n\nAtau Anda dapat menautkan grup Anda ke Channel itu lalu coba sambungkan dengan `/channelplay linked`"
 
 #Bermain
-play_1 : "**🔄 Memproses!**"
-play_2 : "**🏷 Mode Putar Chanell**\n\n🔄 Memproses Query... Harap Tunggu!\n**Saluran Tertaut:** {0}"
+play_1 : "**🔄 Memproses Lagu!**"
+play_2 : "**🏷 Mode Putar Chanell**\n\n🔄 Memproses Lagu... Harap Tunggu!\n**Saluran Tertaut:** {0}"
 play_3 : "Gagal Memproses Query!"
 play_4 : "🖇 **Admin Only Play**\nHanya Admin dan Pengguna Auth yang dapat memutar musik di grup ini.\n\nUbah mode melalui /playmode dan jika Anda sudah menjadi admin, muat ulang admincache melalui /admincache"
 play_5 : "Gagal memproses file audio.\n\nUkuran File Audio Harus Kurang dari 100 mb"
@@ -203,7 +203,7 @@ tracks_2 : "**Error**\n\nTidak ada **{0} Top 10 Playlist** di server bot. Silaka
 #Lirik
 lyrics_1 : "**Penggunaan:**\n\n/lyrics [Nama Musik]"
 lyrics_2 : "Mencari Lirik"
-lyrics_3 : "❌ Gagal mengambil lirik😭.\n\n💡**Mencoba Mencari:** {0}"
+lyrics_3 : "❌ Gagal mengambil lirik🙁.\n\n💡**Mencoba Mencari:** {0}"
 lyrics_4 : "Klik tombol di bawah ini dan cari lirik untuk menghindari pencarian lirik jenis spam yang panjang."
 
 #Ping
@@ -214,8 +214,8 @@ ping_2 : "**Pong!**\n`⚡{1} ms`\n\n<b><u> System Stats:</u></b>\nUptime : {2} \
 # Lagu
 song_1 : "Anda dapat mengunduh Musik atau Video dari YouTube hanya dalam obrolan pribadi. Silakan mulai saya dalam obrolan pribadi."
 song_2 : "**Penggunaan:**\n\n/song [Nama Musik] atau [Tautan YouTube]"
-song_3 : "Live Link Detected. Saya tidak bisa mendownload video live youtube."
-song_4 : "**🔗Title:**- {0}\n\nPilih jenis yang ingin Anda unduh."
+song_3 : "Live Link Terdeteksi. Saya tidak bisa mendownload video live youtube."
+song_4 : "**🔗Judul:**- {0}\n\nPilih jenis yang ingin Anda unduh."
 song_5 : "Bukan Tautan Youtube yang valid"
 song_6 : "Mendapatkan Format.. \n\nMohon Tunggu.."
 song_7 : "Gagal mendapatkan format yang tersedia untuk video. Silakan coba trek lain."
@@ -432,8 +432,8 @@ pbot_13 : "\n**<b>Obrolan Tidak Diambil:</b>**\n\n"
 
 
 #Gbanned
-gban_1 : "Kamu mau gban sendiri? Hadeh!"
-gban_2 : "Haruskah saya memblokir diri saya sendiri? psrah"
+gban_1 : "Kamu mau gban diri sendiri? Hadeh!"
+gban_2 : "Haruskah saya memblokir diri saya sendiri? parah"
 gban_3 : "Anda ingin memblokir pengguna sudo?"
 gban_4 : "{0} sudah **gbanned** dari bot."
 gban_5 : "**Menginisialisasi Larangan Gobal pada {0}**\n\nWaktu yang Diharapkan : {1}."
